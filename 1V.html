@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Totalplay Cuernavaca y Jiutepec | Santiago González — Asesor Autorizado Independiente</title>
+  <meta name="description" content="Contrata Totalplay en Cuernavaca y Jiutepec, Morelos con Santiago González, asesor autorizado independiente. 100% fibra óptica simétrica, instalación el mismo día, sin costo de instalación y precios fijos. Cotiza por WhatsApp: 777 340 1844.">
+  <meta name="keywords" content="Totalplay Cuernavaca, Totalplay Jiutepec, Totalplay Morelos, fibra óptica Cuernavaca, internet fibra óptica, Totalplay asesor independiente, contratar Totalplay, planes Totalplay 2026, internet y tv Totalplay">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Totalplay Cuernavaca y Jiutepec | Santiago González — Asesor Autorizado Independiente">
+  <meta property="og:description" content="100% fibra óptica simétrica, instalación el mismo día y precios fijos. Cotiza tu plan Totalplay por WhatsApp con un asesor autorizado independiente.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta name="theme-color" content="#07070a">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="imagenes/totalplay-logo.png">
+  <link rel="apple-touch-icon" href="imagenes/totalplay-logo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-logo-wrap">
+        <div class="loader-ring"></div>
+        <div class="loader-ring-2"></div>
+        <img src="imagenes/totalplay-logo.png" alt="">
+      </div>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+      <span class="loader-text">Conectando…</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="Totalplay — Santiago González, inicio">
+          <img src="imagenes/totalplay-logo.png" alt="Totalplay">
+          <div class="nav-logo-copy">
+            <span class="nl-name">Santiago González</span>
+            <span class="nl-tag">Asesor independiente Totalplay</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Beneficios</a></li>
+            <li><a href="#planes">Planes</a></li>
+            <li><a href="#proceso">Cómo contratar</a></li>
+            <li><a href="#cobertura">Cobertura</a></li>
+            <li><a href="#faq">Preguntas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="https://wa.me/527773401844?text=Hola%20Santiago%2C%20quiero%20contratar%20Totalplay.%20%C2%BFMe%20compartes%20los%20planes%20disponibles%3F"
+           target="_blank" rel="noopener noreferrer" class="btn-brand nav-cta">
+          <i class="fa-brands fa-whatsapp"></i>
+          Contratar
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Beneficios</a>
+      <a href="#planes">Planes</a>
+      <a href="#proceso">Cómo contratar</a>
+      <a href="#cobertura">Cobertura</a>
+      <a href="#faq">Preguntas</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://wa.me/527773401844?text=Hola%20Santiago%2C%20quiero%20contratar%20Totalplay.%20%C2%BFMe%20compartes%20los%20planes%20disponibles%3F" target="_blank" rel="noopener noreferrer">Contratar por WhatsApp →</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Parallax background image -->
+      <div class="hero-bg" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1800&auto=format&fit=crop"
+             alt="">
+      </div>
+      <!-- Dark overlays -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-mesh" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <!-- Grid texture -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Canvas particle constellation -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Light shafts -->
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <!-- Film grain overlay -->
+      <div class="hero-grain" aria-hidden="true"></div>
+      <!-- One-shot scan reveal -->
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <!-- Live badge -->
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Asesor autorizado independiente de Totalplay · Cuernavaca y Jiutepec, Morelos
+          </div>
+
+          <!-- Animated title -->
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Internet simétrico,</span></span>
+            <span class="line"><span>instalación hoy,</span></span>
+            <span class="line"><span class="accent">precio que no sube.</span></span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="hero-sub" id="hero-sub">
+            Contrata tu servicio de <strong>100% fibra óptica Totalplay</strong> directamente con Santiago González, asesor autorizado independiente en Cuernavaca y Jiutepec. Sin costo de instalación, sin letras chiquitas y con bono de portabilidad si te cambias de compañía.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="https://wa.me/527773401844?text=Hola%20Santiago%2C%20vi%20tu%20sitio%20de%20Totalplay%20y%20me%20gustar%C3%ADa%20contratar%20el%20servicio.%20%C2%BFMe%20ayudas%20con%20informaci%C3%B3n%3F"
+               target="_blank" rel="noopener noreferrer" class="btn-brand">
+              <i class="fa-brands fa-whatsapp"></i>
+              Contratar por WhatsApp
+            </a>
+            <a href="#planes" class="btn-ghost">
+              <i class="fa-solid fa-signal" style="font-size:14px; color:var(--cyan);"></i>
+              Ver planes y precios
+            </a>
+          </div>
+
+          <!-- Trust bar -->
+          <div class="hero-trust" id="hero-trust" aria-label="Beneficios clave">
+            <div class="trust-item">
+              <i class="fa-solid fa-bolt"></i>
+              100% Fibra óptica
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-truck-fast"></i>
+              Instalación el mismo día
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-lock"></i>
+              Precios fijos
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-inner">
+          <span class="marquee-item"><i class="fa-solid fa-bolt" style="color:var(--orange);"></i>100% Fibra óptica</span>
+          <span class="marquee-item"><i class="fa-solid fa-truck-fast" style="color:var(--cyan);"></i>Instalación inmediata</span>
+          <span class="marquee-item"><i class="fa-solid fa-hand-holding-dollar" style="color:var(--lime);"></i>Sin costo de instalación</span>
+          <span class="marquee-item"><i class="fa-solid fa-lock" style="color:var(--magenta);"></i>Precios fijos</span>
+          <span class="marquee-item"><i class="fa-solid fa-right-left" style="color:var(--purple);"></i>Bono de portabilidad</span>
+          <span class="marquee-item"><i class="fa-brands fa-whatsapp" style="color:#25d366;"></i>Contrata por WhatsApp</span>
+          <span class="marquee-item"><i class="fa-solid fa-wifi" style="color:var(--cyan);"></i>App Totalplay · Club WiFi</span>
+        </div>
+        <div class="marquee-inner">
+          <span class="marquee-item"><i class="fa-solid fa-bolt" style="color:var(--orange);"></i>100% Fibra óptica</span>
+          <span class="marquee-item"><i class="fa-solid fa-truck-fast" style="color:var(--cyan);"></i>Instalación inmediata</span>
+          <span class="marquee-item"><i class="fa-solid fa-hand-holding-dollar" style="color:var(--lime);"></i>Sin costo de instalación</span>
+          <span class="marquee-item"><i class="fa-solid fa-lock" style="color:var(--magenta);"></i>Precios fijos</span>
+          <span class="marquee-item"><i class="fa-solid fa-right-left" style="color:var(--purple);"></i>Bono de portabilidad</span>
+          <span class="marquee-item"><i class="fa-brands fa-whatsapp" style="color:#25d366;"></i>Contrata por WhatsApp</span>
+          <span class="marquee-item"><i class="fa-solid fa-wifi" style="color:var(--cyan);"></i>App Totalplay · Club WiFi</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         WHY — Beneficios
+    ══════════════════════════════════════════════════ -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="bg-layer" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1800&auto=format&fit=crop" alt="">
+      </div>
+      <div class="bg-scrim" aria-hidden="true"></div>
+
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">Por qué elegirnos</div>
+            <h2 class="why-quote section-title" id="why-heading" style="max-width:560px;">
+              La diferencia entre un proveedor más<br>
+              <span class="grad">y un asesor que te resuelve.</span>
+            </h2>
+          </div>
+          <p class="section-sub reveal d2">
+            Como asesor autorizado independiente de Totalplay, te acompaño desde la cotización hasta la instalación — sin filas, sin letras chiquitas.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+
+          <div class="b-card reveal">
+            <div class="b-num" aria-hidden="true">01</div>
+            <div class="b-icon" aria-hidden="true"><i class="fa-solid fa-bolt"></i></div>
+            <h3>100% Fibra óptica</h3>
+            <p>Conexión simétrica de última generación: la misma velocidad para subir y bajar contenido, sin cobre y sin cuellos de botella.</p>
+          </div>
+
+          <div class="b-card reveal d1">
+            <div class="b-num" aria-hidden="true">02</div>
+            <div class="b-icon" aria-hidden="true"><i class="fa-solid fa-truck-fast"></i></div>
+            <h3>Instalación inmediata</h3>
+            <p>Agenda hoy y en la mayoría de los casos tu técnico instala el mismo día. Sin esperas de semanas.</p>
+          </div>
+
+          <div class="b-card reveal d2">
+            <div class="b-num" aria-hidden="true">03</div>
+            <div class="b-icon" aria-hidden="true"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+            <h3>Sin costo de instalación</h3>
+            <p>Activa tu servicio sin pagar equipo ni mano de obra por la instalación de tu fibra óptica.</p>
+          </div>
+
+          <div class="b-card reveal d3">
+            <div class="b-num" aria-hidden="true">04</div>
+            <div class="b-icon" aria-hidden="true"><i class="fa-solid fa-lock"></i></div>
+            <h3>Precios fijos</h3>
+            <p>Tu mensualidad no sube con el tiempo: solo baja a partir del 6° mes, tal como lo indica tu plan.</p>
+          </div>
+
+          <div class="b-card reveal">
+            <div class="b-num" aria-hidden="true">05</div>
+            <div class="b-icon" aria-hidden="true"><i class="fa-solid fa-right-left"></i></div>
+            <h3>Bono de portabilidad</h3>
+            <p>¿Vienes de otra compañía? Te apoyo con un bono especial al portar tu servicio a Totalplay.</p>
+          </div>
+
+          <div class="b-card reveal d1">
+            <div class="b-num" aria-hidden="true">06</div>
+            <div class="b-icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></div>
+            <h3>Contratación por WhatsApp</h3>
+            <p>Cotiza, resuelve tus dudas y agenda tu instalación sin llamadas eternas, todo desde el chat.</p>
+          </div>
+
+          <div class="b-card reveal d2">
+            <div class="b-num" aria-hidden="true">07</div>
+            <div class="b-icon" aria-hidden="true"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <h3>App Totalplay + Club WiFi</h3>
+            <p>Administra tu cuenta desde tu celular y conéctate gratis a la red Club WiFi Totalplay en distintos puntos.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PLANES Y PRECIOS
+    ══════════════════════════════════════════════════ -->
+    <section id="planes" aria-labelledby="planes-heading">
+      <div class="container">
+
+        <div class="plans-intro">
+          <div class="reveal">
+            <div class="label" style="justify-content:center;">Planes y precios</div>
+            <h2 class="section-title" id="planes-heading">
+              Fibra óptica <span class="grad">a tu medida</span>
+            </h2>
+            <p class="section-sub">
+              Elige la velocidad ideal para tu hogar o negocio. Todos los planes incluyen 100% fibra óptica simétrica, instalación sin costo y precios fijos.
+            </p>
+            <span class="plans-note">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              Precios promocionales sujetos a vigencia — confirma la promoción activa directamente con tu asesor.
+            </span>
+          </div>
+        </div>
+
+        <!-- Solo Internet -->
+        <div class="plan-group">
+          <div class="plan-group-head reveal">
+            <div class="pg-icon" aria-hidden="true"><i class="fa-solid fa-wifi"></i></div>
+            <div>
+              <h3>Solo Internet</h3>
+              <p>100% fibra óptica simétrica para tu hogar o negocio</p>
+            </div>
+          </div>
+
+          <div class="plan-grid">
+
+            <div class="plan-card reveal">
+              <div class="plan-speed"><span class="plan-num">100</span><span class="plan-unit">Megas</span></div>
+              <div class="plan-tag">Simétricos · Solo Internet</div>
+              <div class="plan-price">
+                <div class="price-now">$390<span>/mes</span></div>
+                <div class="price-after">A partir del 6° mes: <strong>$370/mes</strong></div>
+              </div>
+              <ul class="plan-perks">
+                <li><i class="fa-solid fa-check"></i><span>100% fibra óptica <b>simétrica</b></span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Sin costo</b> de instalación</span></li>
+                <li><i class="fa-solid fa-check"></i><span>Precio fijo, solo baja al 6° mes</span></li>
+              </ul>
+              <a class="plan-cta" target="_blank" rel="noopener noreferrer"
+                 href="https://wa.me/527773401844?text=Hola%2C%20me%20interesa%20el%20plan%20Solo%20Internet%20100%20Megas%20a%20%24390%20al%20mes.%20%C2%BFMe%20das%20m%C3%A1s%20informaci%C3%B3n%3F">
+                <i class="fa-brands fa-whatsapp"></i> Solicitar este plan
+              </a>
+            </div>
+
+            <div class="plan-card featured reveal d1">
+              <div class="plan-ribbon">Más elegido</div>
+              <div class="plan-speed"><span class="plan-num">150</span><span class="plan-unit">Megas</span></div>
+              <div class="plan-tag">Simétricos · Solo Internet</div>
+              <div class="plan-price">
+                <div class="price-now">$460<span>/mes</span></div>
+                <div class="price-after">A partir del 6° mes: <strong>$440/mes</strong></div>
+              </div>
+              <ul class="plan-perks">
+                <li><i class="fa-solid fa-check"></i><span>100% fibra óptica <b>simétrica</b></span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Netflix y HBO</b> gratis por 3 meses</span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Sin costo</b> de instalación</span></li>
+                <li><i class="fa-solid fa-check"></i><span>Precio fijo, solo baja al 6° mes</span></li>
+              </ul>
+              <a class="plan-cta" target="_blank" rel="noopener noreferrer"
+                 href="https://wa.me/527773401844?text=Hola%2C%20me%20interesa%20el%20plan%20Solo%20Internet%20150%20Megas%20a%20%24460%20al%20mes%20%28incluye%20Netflix%20y%20HBO%20gratis%203%20meses%29.%20%C2%BFMe%20das%20m%C3%A1s%20informaci%C3%B3n%3F">
+                <i class="fa-brands fa-whatsapp"></i> Solicitar este plan
+              </a>
+            </div>
+
+            <div class="plan-card reveal d2">
+              <div class="plan-speed"><span class="plan-num">250</span><span class="plan-unit">Megas</span></div>
+              <div class="plan-tag">Simétricos · Solo Internet</div>
+              <div class="plan-price">
+                <div class="price-now">$559<span>/mes</span></div>
+                <div class="price-after">A partir del 6° mes: <strong>$539/mes</strong></div>
+              </div>
+              <ul class="plan-perks">
+                <li><i class="fa-solid fa-check"></i><span>100% fibra óptica <b>simétrica</b></span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Netflix y HBO</b> gratis por 5 meses</span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Sin costo</b> de instalación</span></li>
+                <li><i class="fa-solid fa-check"></i><span>Precio fijo, solo baja al 6° mes</span></li>
+              </ul>
+              <a class="plan-cta" target="_blank" rel="noopener noreferrer"
+                 href="https://wa.me/527773401844?text=Hola%2C%20me%20interesa%20el%20plan%20Solo%20Internet%20250%20Megas%20a%20%24559%20al%20mes%20%28incluye%20Netflix%20y%20HBO%20gratis%205%20meses%29.%20%C2%BFMe%20das%20m%C3%A1s%20informaci%C3%B3n%3F">
+                <i class="fa-brands fa-whatsapp"></i> Solicitar este plan
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Internet + TV -->
+        <div class="plan-group">
+          <div class="plan-group-head reveal">
+            <div class="pg-icon" aria-hidden="true"><i class="fa-solid fa-tv"></i></div>
+            <div>
+              <h3>Internet + TV</h3>
+              <p>Más de 185/190 canales en vivo, sin descodificador adicional</p>
+            </div>
+          </div>
+
+          <div class="plan-grid">
+
+            <div class="plan-card reveal">
+              <div class="plan-speed"><span class="plan-num">100</span><span class="plan-unit">Megas</span></div>
+              <div class="plan-tag">Internet + TV · +185 canales</div>
+              <div class="plan-price">
+                <div class="price-now">$490<span>/mes</span></div>
+                <div class="price-after">A partir del 6° mes: <strong>$460/mes</strong></div>
+              </div>
+              <ul class="plan-perks">
+                <li><i class="fa-solid fa-check"></i><span>Más de <b>185 canales</b> en vivo</span></li>
+                <li><i class="fa-solid fa-check"></i><span>100% fibra óptica <b>simétrica</b></span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Sin costo</b> de instalación</span></li>
+                <li><i class="fa-solid fa-check"></i><span>Precio fijo, solo baja al 6° mes</span></li>
+              </ul>
+              <a class="plan-cta" target="_blank" rel="noopener noreferrer"
+                 href="https://wa.me/527773401844?text=Hola%2C%20me%20interesa%20el%20plan%20Internet%20%2B%20TV%20100%20Megas%20a%20%24490%20al%20mes.%20%C2%BFMe%20das%20m%C3%A1s%20informaci%C3%B3n%3F">
+                <i class="fa-brands fa-whatsapp"></i> Solicitar este plan
+              </a>
+            </div>
+
+            <div class="plan-card reveal d1">
+              <div class="plan-speed"><span class="plan-num">150</span><span class="plan-unit">Megas</span></div>
+              <div class="plan-tag">Internet + TV · +190 canales</div>
+              <div class="plan-price">
+                <div class="price-now">$599<span>/mes</span></div>
+                <div class="price-after">A partir del 6° mes: <strong>$569/mes</strong></div>
+              </div>
+              <ul class="plan-perks">
+                <li><i class="fa-solid fa-check"></i><span>Más de <b>190 canales</b> en vivo</span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Netflix y HBO</b> gratis por 5 meses</span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Sin costo</b> de instalación</span></li>
+                <li><i class="fa-solid fa-check"></i><span>Precio fijo, solo baja al 6° mes</span></li>
+              </ul>
+              <a class="plan-cta" target="_blank" rel="noopener noreferrer"
+                 href="https://wa.me/527773401844?text=Hola%2C%20me%20interesa%20el%20plan%20Internet%20%2B%20TV%20150%20Megas%20a%20%24599%20al%20mes%20%28incluye%20Netflix%20y%20HBO%20gratis%205%20meses%29.%20%C2%BFMe%20das%20m%C3%A1s%20informaci%C3%B3n%3F">
+                <i class="fa-brands fa-whatsapp"></i> Solicitar este plan
+              </a>
+            </div>
+
+            <div class="plan-card reveal d2">
+              <div class="plan-speed"><span class="plan-num">250</span><span class="plan-unit">Megas</span></div>
+              <div class="plan-tag">Internet + TV · +190 canales</div>
+              <div class="plan-price">
+                <div class="price-now">$699<span>/mes</span></div>
+                <div class="price-after">A partir del 6° mes: <strong>$669/mes</strong></div>
+              </div>
+              <ul class="plan-perks">
+                <li><i class="fa-solid fa-check"></i><span>Más de <b>190 canales</b> en vivo</span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Netflix y HBO</b> gratis por 5 meses</span></li>
+                <li><i class="fa-solid fa-check"></i><span><b>Sin costo</b> de instalación</span></li>
+                <li><i class="fa-solid fa-check"></i><span>Precio fijo, solo baja al 6° mes</span></li>
+              </ul>
+              <a class="plan-cta" target="_blank" rel="noopener noreferrer"
+                 href="https://wa.me/527773401844?text=Hola%2C%20me%20interesa%20el%20plan%20Internet%20%2B%20TV%20250%20Megas%20a%20%24699%20al%20mes%20%28incluye%20Netflix%20y%20HBO%20gratis%205%20meses%29.%20%C2%BFMe%20das%20m%C3%A1s%20informaci%C3%B3n%3F">
+                <i class="fa-brands fa-whatsapp"></i> Solicitar este plan
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROCESO — Cómo contratar
+    ══════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="bg-layer" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?q=80&w=1800&auto=format&fit=crop" alt="">
+      </div>
+      <div class="bg-scrim" aria-hidden="true"></div>
+
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Cómo contratar</div>
+          <h2 class="section-title" id="proceso-heading">
+            Tres pasos y listo — <span class="grad">así de simple</span>
+          </h2>
+          <p class="section-sub">Del primer mensaje a tu servicio activo, te acompaño en todo el proceso.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-circle">1</div>
+            <h3><i class="fa-brands fa-whatsapp step-ico" style="color:#25d366;"></i>Escríbenos por WhatsApp</h3>
+            <p>Cuéntame qué necesitas — solo Internet o Internet + TV — y te cotizo el plan ideal en minutos, sin compromiso.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-circle">2</div>
+            <h3><i class="fa-solid fa-calendar-check step-ico" style="color:var(--cyan);"></i>Agenda tu instalación</h3>
+            <p>Confirmamos tu domicilio y cobertura, y agendamos la visita del técnico — en la mayoría de los casos, el mismo día.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-circle">3</div>
+            <h3><i class="fa-solid fa-house-signal step-ico" style="color:var(--magenta);"></i>Disfruta tu servicio</h3>
+            <p>Tu fibra óptica queda instalada y activa. Descarga la app Totalplay y aprovecha el Club WiFi desde el primer día.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         COBERTURA
+    ══════════════════════════════════════════════════ -->
+    <section id="cobertura" aria-labelledby="cobertura-heading">
+      <div class="bg-layer" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1800&auto=format&fit=crop" alt="">
+      </div>
+      <div class="bg-scrim" aria-hidden="true"></div>
+      <canvas class="section-canvas" aria-hidden="true"></canvas>
+
+      <div class="container">
+        <div class="cobertura-wrap">
+
+          <div class="cobertura-text reveal">
+            <div class="label">Zona de servicio</div>
+            <h2 class="section-title" id="cobertura-heading">
+              Cobertura en <span class="grad">Cuernavaca y Jiutepec</span>
+            </h2>
+            <p class="section-sub">
+              Atiendo directamente la zona de Cuernavaca y Jiutepec, Morelos. Escríbeme tu domicilio exacto por WhatsApp y te confirmo la disponibilidad de fibra óptica en tu dirección antes de contratar.
+            </p>
+
+            <ul class="cobertura-list">
+              <li><i class="fa-solid fa-location-dot"></i><span><strong>Zona atendida:</strong> Cuernavaca y Jiutepec, Morelos.</span></li>
+              <li><i class="fa-solid fa-magnifying-glass-location"></i><span><strong>Verificación gratuita:</strong> confirmamos cobertura en tu domicilio antes de agendar.</span></li>
+              <li><i class="fa-solid fa-truck-fast"></i><span><strong>Instalación local:</strong> técnicos que cubren tu colonia con agenda flexible.</span></li>
+            </ul>
+
+            <div class="app-card">
+              <div class="app-ico" aria-hidden="true"><i class="fa-solid fa-wifi"></i></div>
+              <div>
+                <h4>App Totalplay · Club WiFi</h4>
+                <p>Administra tu cuenta y conéctate gratis a la red Club WiFi Totalplay en distintos puntos, además de tu servicio en casa.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cobertura-visual reveal d2" aria-hidden="true">
+            <div class="coverage-orb">
+              <div class="coverage-ring cr1"></div>
+              <div class="coverage-ring cr2"></div>
+              <div class="coverage-ring cr3"></div>
+              <div class="coverage-pin"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="coverage-city">Cuernavaca · Jiutepec</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Datos clave del servicio">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="100" data-suffix="%" aria-label="100 por ciento">0</div>
+            <div class="stat-lbl">Fibra óptica<br>simétrica</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="3" data-suffix="" aria-label="3 velocidades">0</div>
+            <div class="stat-lbl">Velocidades<br>disponibles</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" data-count="6" data-suffix="" aria-label="6 planes">0</div>
+            <div class="stat-lbl">Planes<br>a elegir</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" aria-label="0 pesos">$0</div>
+            <div class="stat-lbl">Costo de<br>instalación</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         FAQ
+    ══════════════════════════════════════════════════ -->
+    <section id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+
+        <div class="faq-header reveal">
+          <div class="label">Preguntas frecuentes</div>
+          <h2 class="section-title" id="faq-heading">
+            Antes de <span class="grad">contratar</span>
+          </h2>
+          <p class="section-sub">Lo que más preguntan los clientes antes de agendar su instalación.</p>
+        </div>
+
+        <div class="faq-list reveal d1">
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>¿Cuánto tarda la instalación?</h3>
+              <span class="faq-ico" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>En la mayoría de los casos la instalación se realiza el mismo día que agendas, sujeto a la disponibilidad de tu zona. Confírmalo directamente por WhatsApp.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>¿Tiene costo la instalación?</h3>
+              <span class="faq-ico" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>No. La instalación no tiene costo en ninguno de los seis planes disponibles, tanto de Solo Internet como de Internet + TV.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>¿Los precios suben después de un tiempo?</h3>
+              <span class="faq-ico" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Al contrario: tu mensualidad es fija y solo baja a partir del 6° mes, tal como se indica en cada plan. Nunca sube.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>¿Qué pasa si me cambio de otra compañía?</h3>
+              <span class="faq-ico" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Si portas tu número o servicio desde otra compañía, aplicas a un bono especial de portabilidad. Pregunta por la vigencia y condiciones actuales por WhatsApp.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>¿Cubre mi zona?</h3>
+              <span class="faq-ico" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Atiendo la zona de Cuernavaca y Jiutepec, Morelos. Envíame tu domicilio exacto por WhatsApp y te confirmo disponibilidad de fibra óptica antes de agendar.</p></div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>¿Qué incluye la app Totalplay?</h3>
+              <span class="faq-ico" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p>Desde la app puedes administrar tu cuenta y acceder al Club WiFi Totalplay, con conexión gratuita en distintos puntos fuera de casa.</p></div>
+          </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:44px;" class="reveal d2">
+          <a class="faq-cta btn-ghost" target="_blank" rel="noopener noreferrer"
+             href="https://wa.me/527773401844?text=Hola%20Santiago%2C%20tengo%20una%20pregunta%20sobre%20los%20planes%20de%20Totalplay.">
+            <i class="fa-brands fa-whatsapp" style="color:#25d366;"></i>
+            ¿Tienes otra duda? Pregúntame por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="bg-layer" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1800&auto=format&fit=crop" alt="">
+      </div>
+      <div class="bg-scrim" aria-hidden="true"></div>
+      <canvas class="section-canvas" aria-hidden="true"></canvas>
+
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Hablemos de tu <span class="grad">nuevo internet</span>
+          </h2>
+          <p class="section-sub">Cotización gratuita, respuesta inmediata por WhatsApp.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Info panel -->
+          <div class="contact-info">
+            <h3>Atención personalizada</h3>
+            <p class="ci-sub">Asesor autorizado independiente de Totalplay en Cuernavaca y Jiutepec, Morelos.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="ci-body">
+                  <h4>Zona de cobertura</h4>
+                  <p>Cuernavaca y Jiutepec, Morelos.<br>Confirma tu domicilio exacto por WhatsApp antes de contratar.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></div>
+                <div class="ci-body">
+                  <h4>Teléfono</h4>
+                  <p><a href="tel:+527773401844">777 340 1844</a></p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Escríbeme y cotizamos tu plan en minutos.</p>
+                  <a href="https://wa.me/527773401844?text=Hola%20Santiago%2C%20quiero%20cotizar%20un%20plan%20de%20Totalplay%20contigo." target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat →
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /.contact-info -->
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <h3>Solicitar cotización</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Juan Pérez" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué plan te interesa?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Cotización general</option>
+                    <option>Solo Internet 100 Megas — $390/mes</option>
+                    <option>Solo Internet 150 Megas — $460/mes</option>
+                    <option>Solo Internet 250 Megas — $559/mes</option>
+                    <option>Internet + TV 100 Megas — $490/mes</option>
+                    <option>Internet + TV 150 Megas — $599/mes</option>
+                    <option>Internet + TV 250 Megas — $699/mes</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Cuéntame sobre tu instalación</label>
+                <textarea id="f-msg" class="form-control" rows="4"
+                          placeholder="Colonia, referencias de tu domicilio o cualquier detalle relevante…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar a WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar serás redirigido a WhatsApp para continuar la conversación con Santiago.
+              </p>
+            </form>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="imagenes/totalplay-logo.png" alt="Totalplay">
+          <div class="footer-logo-copy">
+            <div class="fl-name">Santiago González</div>
+            <div class="fl-tag">Asesor independiente Totalplay</div>
+          </div>
+        </div>
+
+        <p class="footer-disclaimer">
+          <strong>Asesor / distribuidor independiente autorizado de Totalplay.</strong>
+          Este sitio promueve los servicios de Totalplay a través de un asesor independiente; no somos Totalplay oficial. Precios y promociones sujetos a cambio — confirma vigencia directamente por WhatsApp antes de contratar.
+        </p>
+
+        <div class="footer-socials">
+          <a href="https://wa.me/527773401844?text=Hola%2C%20vi%20tu%20sitio%20web%20de%20Totalplay%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n."
+             target="_blank" rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Santiago González — Asesor autorizado independiente de Totalplay. Cuernavaca y Jiutepec, Morelos.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════
+       FLOATING WHATSAPP
+  ══════════════════════════════════════════════════════ -->
+  <a href="https://wa.me/527773401844?text=Hola%2C%20vi%20tu%20sitio%20web%20de%20Totalplay%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <span class="wa-btn-ping" aria-hidden="true"></span>
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
